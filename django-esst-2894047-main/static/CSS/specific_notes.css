@@ -1,0 +1,17 @@
+.background {
+    background-color: #023e8a;
+}
+
+.title {
+    font-size: 35px;
+    color: #ffff;
+    text-align: center;
+    padding-right: 35px;
+}
+
+
+.text {
+    font-size: 16px;
+    color: #ff6392;
+    text-align: center;
+}

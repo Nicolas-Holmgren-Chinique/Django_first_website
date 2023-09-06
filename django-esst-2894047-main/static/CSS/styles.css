@@ -1,0 +1,23 @@
+.background {
+    background: #023e8a;
+}
+
+.title {
+    padding-left: 65px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffff;
+}
+
+.note-li {
+    color:  #f9f9f9;
+    font-size: 25px ;
+    text-align: center;
+}
+
+.text-style {
+    color:  #ff6392;
+    font-size: 20px;
+    text-align: center;
+}
+

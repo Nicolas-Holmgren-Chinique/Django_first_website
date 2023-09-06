@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <body class="background"> 
+        <h1 class="my-5">These are the notes </h1>
+
+            <div class="row row-cols3 g-2">
+                {% for note in notes %}
+                <div class="col">
+                    <div class="p-3 border">
+                        <a href="{% url 'notes.detail' pk=note.id %}"class="text-dark text-decoration-non"><h1>{{note.title}}</h1>
+                        </a>
+                        <br>
+                        <h3>{{note.text|truncatechars:20}}</h3>
+
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+        
+            <!-- {% for notes in notes %}
+                <ul class="note-li"><b>{{notes.title}}</b></ul>
+                <br>
+                <ul class="text-style"> {{notes.text}}</ul>
+                <br>
+
+            {% endfor %} -->
+{% endblock %}
+
+
+<!-- Styles for my html page and future referance -->
+<!-- style = "text-align: center; background-color: #30638e; color: #ffb3c6">
+        <h1 Style = "text-align: center; padding-left: 65px" -->
