@@ -1,4 +1,8 @@
-.background {
+ul.errorlist {
+    display:none;
+}
+
+/* .background {
     background: #023e8a;
 }
 
@@ -19,5 +23,6 @@
     color:  #ff6392;
     font-size: 20px;
     text-align: center;
-}
+} */
+
 

@@ -5,5 +5,7 @@
     <header class="title-page"><b>Welcome to SmartNotes!</header>
     <p class="time">Today is {{today}}</p>
     <a href="{% url 'notes.list' %}" class="btn btn-primary">Check out these smart notes!</a>
+
+    <a href="{% url 'notes.new' %}" class="btn btn-primary">Create a note</a>
 {% endblock%}
     
